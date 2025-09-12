@@ -1,0 +1,5 @@
+# Exclude Folders
+node_modules
+
+# Excluded auto files
+.DS_store
