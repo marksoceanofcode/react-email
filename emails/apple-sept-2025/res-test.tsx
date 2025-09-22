@@ -30,36 +30,38 @@ export const StripeWelcomeEmail = () => (
       <Body style={main}>
         <Container style={container}>
           <Section>
-            <Heading className='font-bold text-center' as="h2">
+            {/* <Heading className='font-bold text-center' as="h2">
+              Apple Event<br/>
+            </Heading> */}
+            <Text className='font-bold text-center text-3xl'>
               Apple Event
-            </Heading>
+            </Text>
 
             <Img
               className="w-full"
-              src={`${baseUrl}/static/hero_apple_event_september_2x.png`}
+              src={`${baseUrl}/static/apple-sept-2025/hero_apple_event_september_2x.png`}
               alt="Apple September Event"
             />
           </Section>
 
-          <Section>
-            <Heading className='font-bold text-center' as="h3">
-              9/9/2025 @ 10AM PT.
-            </Heading>
+          <Container className='px-8'>
+            {/* <Heading className='font-bold text-center' as="h3">
+              Recap
+            </Heading> */}
+            <Text className='font-semibold text-center text-xl'>
+              Recap
+            </Text>
 
-            <Text className='text-center'>
-              Watch online tomorrow at 10 a.m. PT.<br/>
-              Tune in at apple.com or on the Apple TV app.
+            <Text className='font-normal text-base text-center'>
+              Catch-up on all the latest from the September 2025 Apple event.<br/>
+              Meet the new iPhone 17, iPhone 17 Pro,
+              iPhone Air, Apple Watch, and Air Pods Pro.
             </Text>
 
             <Text className='text-center'>
               
             </Text>
-          </Section>
-
-          {/* A simple `section` */}
-          <Section>
-            <Text>Hello World</Text>
-          </Section>
+          </Container>
 
           {/* Formatted with `rows` and `columns` */}
           <Section>
